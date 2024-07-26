@@ -1,31 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, install the packages and run the development server:
+Install the packages by doing `npm i`
 
-```bash
-npm i
-npm run dev
-```
+## Structuring
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The dummy data is inside `data/data.ts`
+- The classes used are inside the `lib` folder
+- The demo website is inside `app`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Testing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Run `npm run test` to run testing functions for the calculator
 
-## Learn More
+## Website Demo
 
-To learn more about Next.js, take a look at the following resources:
+If you want to see the demo, you can click [here](https://notreina.github.io/calculator/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Alternatively, you can also run `npm run dev` to run the demo website on your device, then open [http://localhost:3000](http://localhost:3000) (or the new port used by Next.js) with your browser to see the result
