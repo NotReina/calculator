@@ -3,10 +3,8 @@
 import Calculator from "@/lib/calculator";
 import styles from "./page.module.css";
 import { DUMMY_ITEMS } from "@/data/data";
-import { Box, Button, Switch, TextField } from "@mui/material";
-import AddIcon from "@mui/icons-material/Add";
-import RemoveIcon from "@mui/icons-material/Remove";
-import { useEffect, useState } from "react";
+import { Switch} from "@mui/material";
+import { useState } from "react";
 import ItemProp from "./item";
 
 export default function Home() {
